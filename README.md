@@ -40,7 +40,7 @@ Dense Layers: Learn patterns from data to perform classification.
 Output Layer: A softmax function to predict one of five categories.
 <br>
 ## Training and Evaluation
-The model is trained using the Adam optimizer and sparse categorical crossentropy as the loss function. During training, both accuracy on training data and validation accuracy are monitored. The trained model is evaluated on a test set to assess its performance.
+The model is trained using the Adam optimizer and sparse categorical crossentropy as the loss function. During training, both accuracy on training data and validation accuracy are monitored. The trained model is evaluated on a test set to assess its performance and it acheive 95%.
 
 ## Results
 The project includes visualizing the training and validation accuracy over epochs. This plot helps in understanding how well the model is learning and whether there are issues like overfitting or underfitting.
